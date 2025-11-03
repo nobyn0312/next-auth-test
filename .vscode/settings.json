@@ -1,0 +1,87 @@
+{
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.requireConfig": false,
+	"prettier.useEditorConfig": false,
+	"[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+	"editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+	"files.associations": { "*.js": "javascriptreact" },
+	"search.useIgnoreFiles": true,
+	"files.exclude": { "**/node_modules": true },
+	"cSpell.words": [
+		"autodocs",
+		"autofix",
+		"codegen",
+		"disp",
+		"entypo",
+		"hookform",
+		"ibjapan",
+		"ibjreserve",
+		"Iconify",
+		"mypage",
+		"tanstack",
+		"telno",
+		"USERLIST",
+		"zustand"
+	],
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#FF8C42",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBar.inactiveForeground": "#FFD1A3",
+		"activityBar.activeBackground": "#FF6F00",
+		"activityBarBadge.background": "#FFFFFF",
+		"activityBarBadge.foreground": "#FF8C42",
+
+		"sideBar.background": "#1E1E1E",
+		"sideBar.foreground": "#FFFFFF",
+		"sideBarSectionHeader.background": "#292929",
+
+		"statusBar.background": "#FF8C42",
+		"statusBar.foreground": "#FFFFFF",
+		"statusBarItem.hoverBackground": "#FF6F00",
+		"statusBarItem.remoteBackground": "#FF8C42",
+		"statusBarItem.remoteForeground": "#FFFFFF",
+
+		"titleBar.activeBackground": "#FF8C42",
+		"titleBar.activeForeground": "#FFFFFF",
+		"titleBar.inactiveBackground": "#FF8C42",
+		"titleBar.inactiveForeground": "#FFD1A3",
+
+		"editor.background": "#1E1E1E",
+		"editor.foreground": "#FFFFFF",
+		"editorLineNumber.foreground": "#FFA966",
+		"editor.selectionBackground": "#FF8C42AA",
+		"editorCursor.foreground": "#FF8C42",
+		"editorWhitespace.foreground": "#3C3C3C",
+		"editorIndentGuide.background": "#3C3C3C",
+		"editorIndentGuide.activeBackground": "#FF8C42"
+	},
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": ["comment", "punctuation.definition.comment"],
+				"settings": { "foreground": "#FFA966", "fontStyle": "italic" }
+			},
+			{
+				"scope": ["keyword", "storage.type"],
+				"settings": { "foreground": "#FF8C42" }
+			},
+			{
+				"scope": ["string", "constant.other.symbol"],
+				"settings": { "foreground": "#FFD699" }
+			},
+			{
+				"scope": ["variable", "entity.name.function"],
+				"settings": { "foreground": "#FFFFFF" }
+			}
+		]
+	}
+}
